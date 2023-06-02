@@ -111,7 +111,7 @@ export default function AllDetails() {
                                         <td title={allDetail.birthyear}>{allDetail.birthyear}</td>
                                         <td title={allDetail.birthplace}>{allDetail.birthplace}</td>
                                         <td title={allDetail.gender}>{allDetail.gender}</td>
-                                        <td title={allDetail.hospital}>{allDetail.hospital}</td>
+                                        <td title={allDetail.hname}>{allDetail.hname}</td>
                                         <td title={allDetail.address}>{allDetail.address}</td>
                                         <td title={allDetail.type}>{allDetail.type}</td>
                                         <td title={allDetail.description}>{allDetail.description}</td>

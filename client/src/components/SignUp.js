@@ -18,8 +18,7 @@ export default function SignUpCustom() {
     function handleRegister() {
         registerUser({ identityNumber, personnelNumber, firstName, lastName, email, password, birthYear, phoneNumber, gender })
             .then(res => {
-                localStorage.setItem('user', JSON.stringify(res.data));
-                navigate('/');
+                alert("Kullanıcı kaydedildi.");
             }).catch(reason => {
                 console.log(reason);
             });
@@ -162,7 +161,7 @@ export default function SignUpCustom() {
                                                 İş pozisyonunuzu seçiniz
                                             </label>
                                             <select className="select form-control">
-                                                <option value={1} selected="" disabled="">
+                                                <option value={1} selected disabled>
                                                     Seçiniz
                                                 </option>
                                                 <option value={2}>Kayıt Personeli</option>

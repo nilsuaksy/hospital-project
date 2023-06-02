@@ -43,7 +43,7 @@ export default function NavbarCustom() {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem className='dropdown-item'>
-                                    <Link className='nav-link' to='/hospitals'>Hastaneler</Link>
+                                    <Link className='nav-link' to='/hastaneler'>Hastaneler</Link>
                                 </DropdownItem>
                                 <DropdownItem className='dropdown-item'>
                                     <Link className='nav-link' to='/patients'>Hastalar</Link>

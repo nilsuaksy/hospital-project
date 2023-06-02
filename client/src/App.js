@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       index: true,
       element: <CardCustom />
     }, {
-      path: 'hospitals',
+      path: 'hastaneler',
       element: <Hospitals />
     }, {
       path: 'patients',
